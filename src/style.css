@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+.searchbar{
+    padding: 10px;
+    outline: none;
+    border: 2px solid lightgrey;
+    width: 80%;
+    display: inline;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.searchbar__div{
+    width: 75%;
+    background-color:white;
+    text-align: center;
+    padding: 30px 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.cards__main__div{
+    margin-top: 15px;
+    padding: 10px;
+    width: 75%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.img__div{
+    margin: 10px;
+}
+
+.img__div img{
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+}
